@@ -1,0 +1,325 @@
+body {
+    display: block;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+div {
+    border: 1px solid black;
+}
+.site-page {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*vertical-align: baseline;*/
+    line-height: 18px;
+    letter-spacing: normal;
+    font-family: Circular, Roboto, "Helvetica Neue", sans-serif;
+}
+.presentation {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.logo-airbnb {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    z-index: 999;
+}
+.presentation-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#presentation-image {
+    position: absolute;
+    background-image: url("../images/entete.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    max-height: 560px;  
+}
+.presentation-2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 1080px;
+    background-color: transparent;
+    height: auto;
+    max-height: 560px;
+    margin-bottom: 32px;
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+    word-wrap: break-word;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.125em;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 6px;
+}
+.explorer-accueillir {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+    /*height: auto;*/
+    height: 150px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+    /*margin-left: 12px;
+    margin-right: 12px;*/
+}
+.explorer {
+    display: block;
+    min-height: 1px;
+    /*position: relative;
+    padding-left: 12px;
+    padding-right: 12px;*/
+    padding-bottom: 20px;
+}
+.accueillir {
+    display: block;
+    min-height: 1px;
+    position: relative;
+    /*padding-left: 12px;
+    padding-right: 12px;*/
+    padding-bottom: 20px;   
+}
+.lbl-explorer {
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
+    border: 0;
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: 400;
+    vertical-align: baseline;
+    color: white;
+    line-height: 1.444em;
+    height: 26px;
+}
+.btn-explorer {
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-transform: undefined;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 800;
+    border-width: 2px;
+    padding-left: 22px;
+    padding-right: 22px;
+    background: white;
+    border-color: transparent;
+    color: black;
+    height: 48px;
+}
+.lbl-accueillir {
+    margin-bottom: 8px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: 400;
+    vertical-align: baseline;
+    color: white;
+}
+.btn-accueillir {
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 800;
+    border-width: 2px;
+    padding-left: 22px;
+    padding-right: 22px;
+    background: black;
+    border-color: transparent;
+    color: white;
+}
+@media (min-width: 744px){
+    .presentation-1{
+        min-height: 322px;
+    }
+    .presentation-2 {
+        min-width: 675px;
+        max-width: 950px;
+        width: auto;
+    }
+    .lbl-explorer {
+        display: block;
+
+    }
+    .lbl-accueillir {
+        display: block;
+        padding-left: 6px;
+        width: 50%;
+        float: left;
+    }
+    .explorer {
+        width: 50%;
+        float: left;
+        padding-bottom: 0px;
+    }
+    .accueillir {
+
+    }
+    .explorer-accueillir {
+        display: block;
+        /*margin-bottom: 0px;
+        max-width: 700px;*/
+    }
+}
+/*header {
+    position: relative;
+    width: 100%;
+    
+    background-image: url("../images/entete.jpg"); 
+    background-position: center;
+    background-size: 100% 100%;
+    vertical-align: baseline;
+    padding-top: 74px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    /*max-width: 1080px;*/
+    /*color: white;
+    min-height: 344px;
+    
+}
+#introduction {
+    font-family: Circular;
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 6px;
+    padding-bottom: 6px;*/
+    /*line-height: 1.125;
+    font-size: 100%;*/
+/*    letter-spacing: normal;
+    vertical-align: baseline; 
+}
+#btn-explorer {
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Circular;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 800;
+    border-width: 2px;
+    padding-left: 22px;
+    padding-right: 22px;
+    background: white;
+    border-color: transparent;
+    color: black;
+    line-height: 24px;
+    min-width: 284px;
+    max-width: 284px;
+    text-align: center;
+
+}
+#btn-accueillir {
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Circular;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 800;
+    border-width: 2px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-color: white;
+    color:white;
+    background-color: #484848;
+    height: 24px;
+    min-width: 284px;
+    max-width: 415px;    
+    padding-top: 10px;
+    text-align: center;
+}
+bouton {
+    border:2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    padding: 10 32;
+}
+.aligner-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.aligner-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div {
+    border: 3px solid black;
+}
+.ou {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-color: white;
+}
+.label-recherche {
+    font-family: Circular;
+    font-size: 12px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 8px;
+}
+@media (max-width: 700px){
+        header {
+            padding-left: 5px;
+            padding-right: 5px;
+            color:red;
+        }
+        .aligner-btns {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        #btn-explorer {
+            height: 24px;
+            min-width: 192px;
+            max-width: 635px;            
+        }
+        #btn-accueillir {
+            height: 24px;
+            min-width: 192px;
+            max-width: 635px;
+        }
+}*/

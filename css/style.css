@@ -1,0 +1,110 @@
+body {
+    /*font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+header {
+    /*border: 2px solid black;*/
+    background-image: url("images/chat.png");  
+    background-position: center;
+    background-size: contain;
+    
+
+}
+/*.corps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.marge {
+    max-width: 15%;
+}
+#presentation {
+    
+    
+}
+#bexp {
+    background-color: white;
+    border: 2px solid white;
+    color:black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:4px;
+    letter-spacing: normal
+  }
+#bacc {
+    background-color: white;
+    border: 2px solid white;
+    color:black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:4px;
+    letter-spacing: normal
+}
+#accueillir {
+    
+}
+#explorer {
+   }
+.sect {
+    position: relative;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    border: 2px solid black;
+}
+.aligner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#arriv-depart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+#reservation > form {
+    display: flex;
+    flex-direction: row;
+    justify-content: raw;
+}
+#arriv-depart {
+    display: flex;
+    flex-direction: row;
+}
+#adult-enfants {
+    display: flex;
+    flex-direction: row;    
+}
+div {
+    border: 2px solid black;
+}
+#footer-1 { 
+    
+}
+#exp-acc {
+    aling-items: center;
+
+}
+@media (max-width: 320px){
+    body {
+        color: red;
+    }
+    .aligner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #footer-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+}*/
